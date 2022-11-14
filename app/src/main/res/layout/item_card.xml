@@ -27,6 +27,17 @@
             android:layout_marginLeft="6dp"
             />
 
+        <TextView
+            android:id="@+id/tv_tentang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang Pahlawan"
+            android:layout_toRightOf="@id/iv_foto"
+            android:layout_below="@id/tv_nama"
+            android:layout_marginLeft="6dp"
+            android:ellipsize="end"
+            android:maxLines="3"/>
+
 
     </RelativeLayout>
 
