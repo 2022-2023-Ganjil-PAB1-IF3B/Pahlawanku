@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class AdapterCard {
-    
+
     public class ClassViewHolder extends RecyclerView.ViewHolder {
         ImageView ivFoto;
         TextView tvNama, tvTentang;
